@@ -16,7 +16,18 @@ html {
     border-radius: 50%;
     height: 250px;
     width: 250px;
+}
+
+.portrait{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -125px;
     border-bottom: solid;
+    height: 250px;
+    width: 250px;
+    border-color: #FFFFFF;
 }
 
 .ln{
@@ -26,8 +37,39 @@ html {
     height:40px;
     width: 40px;
     margin-top: -20px;
-    margin-left: -20px;
+    margin-left: -100px;
 }
+
+.fb{
+    position: fixed;
+    top: 68%;
+    left: 50%;
+    height:40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.gh{
+    position: fixed;
+    top: 68%;
+    left: 50%;
+    height:40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.tw{
+    position: fixed;
+    top: 68%;
+    left: 50%;
+    height:40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
 
 div1{
     height: 1000px;
