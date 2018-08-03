@@ -1,5 +1,5 @@
-html, body {
-    background-image: url("realcity.jpg");
+html {
+    background-image: url("assets/realcity.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -7,16 +7,29 @@ html, body {
     overflow: hidden;
 }
 
-div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+.picture{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-bottom: solid;
 }
 
-.picture{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+.ln{
+    position: fixed;
+    top: 68%;
+    left: 50%;
+    height:40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+div1{
+    height: 1000px;
+    width: 1000px;
 }
